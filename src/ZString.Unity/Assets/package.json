@@ -1,0 +1,10 @@
+{
+  "name": "com.cysharp.zstring",
+  "displayName": "ZString",
+  "description": "Zero Allocation StringBuilder for .NET Core and Unity.",
+  "version": "2.4.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cysharp/ZString.git"
+  }
+}

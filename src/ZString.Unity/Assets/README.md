@@ -4,6 +4,12 @@ ZString
 
 **Z**ero Allocation **String**Builder for .NET Core and Unity.
 
+## Requirements
+These libraries must be in your project as well:
+* `System.Buffers`
+* `System.Memory`
+* `System.Runtime.CompilerServices.Unsafe`
+
 ## How to install
 
 ### From remote repository

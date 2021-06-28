@@ -16,20 +16,15 @@ These libraries must be in your project as well:
 Add in `Packages/manifest.json` to `dependencies`:
 
 ```javascript
-"com.cysharp.zstring": "git+ssh://git@github.com/azur-games/ZString.git#2.4.2-upm",
+"com.cysharp.zstring": "git+ssh://git@github.com/azur-games/ZString.git?path=src/ZString.Unity/Assets#2.4.2-upm",
 ```
 
 ### From local path
-<details>
-	<summary>From local repository</summary>
-
-	"com.cysharp.zstring": "file:///D/repos/ZString/.git#2.4.2-upm",
-</details>
 
 <details>
 	<summary>From local working copy</summary>
 
-	"com.cysharp.zstring": "file:D:/repos/ZString/Assets",
+	"com.cysharp.zstring": "file:D:/repos/ZString/src/ZString.Unity/Assets",
 </details>
 
 <details>

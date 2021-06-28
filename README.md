@@ -4,6 +4,14 @@ ZString
 
 **Z**ero Allocation **String**Builder for .NET Core and Unity.
 
+How to install
+---
+
+See [Readme of UPM](https://github.com/azur-games/ZString/tree/feature/upm/src/ZString.Unity/Assets#readme) for guide of installation via UPM.
+
+Description
+---
+
 * Struct StringBuilder to avoid allocation of builder itself
 * Rent write buffer from `ThreadStatic` or `ArrayPool`
 * All append methods are generics(`Append<T>(T value)`) and write to buffer directly instead of concatenate `value.ToString`
